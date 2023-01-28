@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('PostCategory', {
+    await queryInterface.createTable('posts_categories', {
       post_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
