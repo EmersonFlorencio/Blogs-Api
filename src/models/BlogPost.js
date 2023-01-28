@@ -1,6 +1,6 @@
 const blogPostsModel = (sequelize, DataTypes) => {
   
-  const blogPostsTable = sequelize.define('blog_posts', {
+  const BlogPost = sequelize.define('BlogPost', {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
@@ -20,12 +20,12 @@ const blogPostsModel = (sequelize, DataTypes) => {
     published: DataTypes.DATE,
     updated: DataTypes.DATE,
   }, 
-    blogPostsTable.associate = (models) => {
-      blog_posts.belongsTo(models.users, {
+    BlogPosts.associate = (models) => {
+      BlogPost.belongsTo(models.User, {
         foreignKey: "id",
       })
   });
-  return blogPostsTable;
+  return BlogPost;
 };
 
 module.exports = blogPostsModel;
