@@ -3,7 +3,6 @@ const postCategoryModel = (sequelize, DataTypes) => {
     post_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true,
       references: {
         model: "blog_posts",
         key: "id",
@@ -14,7 +13,6 @@ const postCategoryModel = (sequelize, DataTypes) => {
     category_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true,
       references: {
         model: "categories",
         key: "id",
@@ -22,11 +20,15 @@ const postCategoryModel = (sequelize, DataTypes) => {
       onUpdate: "CASCADE",
       onDelete: "CASCADE",
     },
+  },{
+    timestamps: false,
+    underscored: true,
+    tableName: 'posts_categories'
   });
 
   PostCategory.associate = (models) => {
     models.Category.belongsToMany(models.BlogPost, {
-      as: "BlogPost",
+      as: "BlogPosts",
       through: PostCategory,
       otherKey: 'post_id',
       foreignKey: 'category_id',
