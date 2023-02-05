@@ -1,6 +1,6 @@
 const postCategoryModel = (sequelize, DataTypes) => {
   const PostCategory = sequelize.define("PostCategory", {
-    post_id: {
+    postId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
@@ -10,7 +10,7 @@ const postCategoryModel = (sequelize, DataTypes) => {
       onUpdate: "CASCADE",
       onDelete: "CASCADE",
     },
-    category_id: {
+    categoryId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
