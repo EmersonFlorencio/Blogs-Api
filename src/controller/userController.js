@@ -26,7 +26,7 @@ const getAllUsers = async (_req, res) => {
 
 const getUserById = async (req, res) => {
   const { id } = req.params;
-  const { status, response } = await userService.getById({ id });
+  const { status, response } = await userService.getUserById({ id });
   if (status === 404) return res.status(status).json({ message: response });
 
   return res.status(status).json(response);
