@@ -8,7 +8,8 @@ Projeto realizado no modulo de back-end para praticar o uso da ORM Sequelize sen
 
 ## Minha experiencia em desenvolver o projeto
 
-Pojeto bastente desafiador, principalmente por ser a primeira vez utilizando um ORM e fazer a configuração das migrations e das models, fazer os relacionamentos das tabelas e como elas iriam interagir, tambem foi necessario utilizar o JWT para realizar as validações no codigo, um projeto que foi muito legal de se fazer, fora que tive um aprendizado bastante enriquecedor.
+Projeto bastente desafiador, principalmente por ser a primeira vez utilizando um ORM e fazer a configuração das migrations e das models, fazer os relacionamentos das tabelas e como elas iriam interagir, tambem foi necessario utilizar o JWT para realizar as validações no codigo, um projeto que foi muito legal de se fazer, fora que tive um aprendizado bastante enriquecedor.
+
 ---
 
 ## Arquivos desenvolvidor por mim
