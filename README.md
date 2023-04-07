@@ -1,10 +1,25 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Blogs Api!
+
+## Descrição do Projeto
+
+Projeto realizado no modulo de back-end para praticar o uso da ORM Sequelize sendo utilizado em uma aplicação de blog Api.
+
+---
+
+## Minha experiencia em desenvolver o projeto
+
+Pojeto bastente desafiador, principalmente por ser a primeira vez utilizando um ORM e fazer a configuração das migrations e das models, fazer os relacionamentos das tabelas e como elas iriam interagir, tambem foi necessario utilizar o JWT para realizar as validações no codigo, um projeto que foi muito legal de se fazer, fora que tive um aprendizado bastante enriquecedor.
+---
+
+## Arquivos desenvolvidor por mim
+
+* Controllers 
+* Services
+* Models
+* Middlewares
+* Migrations
+* Routers
+
+---
+
+<strong>Desenvolvido por Emerson Florencio</strong>
